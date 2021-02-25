@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(195, 199, 199);
+}
+h1 {
+  text-align: center;
+  text-emphasis: radius;
+  color: rgb(0, 0, 0);
+}
+.container {
+  width: 250px;
+  height: 400px;
+  margin: 80px auto;
+  border-radius: 10px;
+  background: rgb(214, 214, 214);
+  box-shadow: 5px 5px 10px #423e38, -5px -5px 10px #ffffff;
+}
+.cal-box {
+  width: 200px;
+  margin: 20px;
+}
+
+#display {
+  border: none;
+  outline: none;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px;
+  margin: 30px 0 20px 0;
+  background: transparent;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+}
+.button {
+  margin: 15px 0 0 5px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  background: rgb(214, 214, 214);
+  box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+  display: inline-block;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #000000;
+  margin: 10px auto;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+/* Footer Section Start */
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 3.1rem;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: rgb(255, 166, 0);
+}
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+/* Footer Section End */
